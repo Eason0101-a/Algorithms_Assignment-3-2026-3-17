@@ -115,34 +115,34 @@ python tree_traversal.py
 ### 前序走訪（Preorder）
 ```mermaid
 flowchart TD
-  A[開始 preorder(node)] --> B{node 是否為空?}
-  B -- 是 --> C[返回]
-  B -- 否 --> D[訪問 node.value]
-  D --> E[遞迴 preorder(node.left)]
-  E --> F[遞迴 preorder(node.right)]
-  F --> G[結束]
+  A["開始 preorder(node)"] --> B{"node 是否為空?"}
+  B -- 是 --> C["返回"]
+  B -- 否 --> D["訪問 node.value"]
+  D --> E["遞迴 preorder(node.left)"]
+  E --> F["遞迴 preorder(node.right)"]
+  F --> G["結束"]
 ```
 
 ### 中序走訪（Inorder）
 ```mermaid
 flowchart TD
-  A[開始 inorder(node)] --> B{node 是否為空?}
-  B -- 是 --> C[返回]
-  B -- 否 --> D[遞迴 inorder(node.left)]
-  D --> E[訪問 node.value]
-  E --> F[遞迴 inorder(node.right)]
-  F --> G[結束]
+  A["開始 inorder(node)"] --> B{"node 是否為空?"}
+  B -- 是 --> C["返回"]
+  B -- 否 --> D["遞迴 inorder(node.left)"]
+  D --> E["訪問 node.value"]
+  E --> F["遞迴 inorder(node.right)"]
+  F --> G["結束"]
 ```
 
 ### 後序走訪（Postorder）
 ```mermaid
 flowchart TD
-  A[開始 postorder(node)] --> B{node 是否為空?}
-  B -- 是 --> C[返回]
-  B -- 否 --> D[遞迴 postorder(node.left)]
-  D --> E[遞迴 postorder(node.right)]
-  E --> F[訪問 node.value]
-  F --> G[結束]
+  A["開始 postorder(node)"] --> B{"node 是否為空?"}
+  B -- 是 --> C["返回"]
+  B -- 否 --> D["遞迴 postorder(node.left)"]
+  D --> E["遞迴 postorder(node.right)"]
+  E --> F["訪問 node.value"]
+  F --> G["結束"]
 ```
 
 ## 結論
